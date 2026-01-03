@@ -3,6 +3,10 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Virtual environment
+venv/
+env/
+
 # Test files (optional - you might want to keep test.py)
 # src/test.py
 
