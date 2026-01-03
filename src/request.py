@@ -1,3 +1,5 @@
+from datetime import datetime
+
 request_counter = 0
 
 class SupportRequest:
@@ -10,5 +12,8 @@ class SupportRequest:
         global request_counter
         request_counter += 1
         self.id = request_counter
+
+        # Set the timestamp
+        self.created_at = datetime.now()
 
    
