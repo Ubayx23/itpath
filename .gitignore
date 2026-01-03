@@ -1,0 +1,8 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Test files (optional - you might want to keep test.py)
+# src/test.py
+

@@ -15,5 +15,10 @@ class SupportRequest:
 
         # Set the timestamp
         self.created_at = datetime.now()
+        
+        # Log all changes to this request
+        # Each log entry is: (timestamp, action, details)
+        self.logs = []
+        self.logs.append((datetime.now(), "created", f"Request created with description: {description}"))
 
    
